@@ -1,0 +1,11 @@
+function isAdult(age) {
+    if(age >= 18) {
+        return true
+    }else{
+        return false
+    }
+}
+
+console.log(isAdult(20)); // true
+console.log(isAdult(15)); // false
+console.log(isAdult(18)); // true
